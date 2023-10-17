@@ -1,0 +1,78 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.resume {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 800px;
+}
+
+.left {
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image_holder img {
+  max-width: 100%;
+  border-radius: 25%;
+}
+
+.contact_wrap {
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact ul,
+personal_info ul,
+interests ul,
+skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li,
+personal_info li,
+interests li,
+skills li {
+  margin: 10px 0;
+}
+
+.icon {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.right {
+  flex: 3;
+  padding: 20px;
+}
+
+.name h1 {
+  font-size: 50px;
+  margin: 0;
+  color: #333;
+}
