@@ -1,0 +1,150 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.resume {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 800px;
+}
+
+.left {
+  padding: 20px;
+  background-color: #5c5c5c;
+  color: #fff;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.image_holder .pogi {
+  border-radius: 100px;
+  height: 100px%;
+  max-width: 100%;
+}
+
+.contact_wrap {
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-color: black;
+  border-style: solid;
+  border-width: 1px, 1px, 1px, 1px;
+  
+}
+.text{
+  margin-bottom: 10px;
+}
+
+.contact ul,
+personal_info ul,
+interests ul,
+skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li,
+personal_info li,
+interests li,
+skills li {
+  margin: 10px 0;
+}
+
+.icon {
+  font-size: 20px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.right {
+  flex: 3;
+  padding: 20px;
+}
+
+.name h1 {
+  font-size: 50px;
+  margin: 0;
+  color: #333;
+}
+.name h2 {
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-width: 1px, 1px, 1px, 1px;
+}
+
+.pi {
+  background-color: white;
+}
+
+.je:hover{
+  border-style: outset;
+  color: whitesmoke;
+  background-color: #5c5c5c;
+}
+.educ:hover{
+  border-style: outset;
+  color: whitesmoke;
+  background-color: #5c5c5c;
+  font-size: 20px;
+}
+.skills h3{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  border-style: solid;
+  border-width: 1px, 1px, 1px, 1px;
+  background-color: black;
+}
+#progress {background: var(--process);border-radius: 13px;height: 8px;width: 100%;}
+#progress:after {
+    content: '';
+    display: block;
+    background: var(--white);
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress1 {background: var(--process);border-radius: 13px;height: 8px;width: 100%;}
+#progress1:after {
+    content: '';
+    display: block;
+    background: var(--white);
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progress2 {background: var(--process);border-radius: 13px;height: 8px;width: 100%;}
+#progress2:after {
+    content: '';
+    display: block;
+    background: var(--white);
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
+}
+.til:hover{
+  border-style: outset;
+  color: white;
+  background-color: #5c5c5c
+  font-size: 20px;
+}
