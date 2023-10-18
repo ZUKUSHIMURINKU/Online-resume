@@ -95,13 +95,12 @@ skills li {
 .pi {
   background-color: white;
 }
-
-.je:hover{
+.je:hover .je:active{
   border-style: outset;
   color: whitesmoke;
   background-color: #5c5c5c;
 }
-.educ:hover{
+.educ:hover .educ:active{
   border-style: outset;
   color: whitesmoke;
   background-color: #5c5c5c;
@@ -142,7 +141,7 @@ skills li {
     height: 100%;
     border-radius: 9px;
 }
-.til:hover{
+.til:hover .til:active{
   border-style: outset;
   color: white;
   background-color: #5c5c5c
